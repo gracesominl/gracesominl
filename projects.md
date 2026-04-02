@@ -29,7 +29,7 @@ permalink: /projects/
 
 <div style="height: 20px;"></div>
 
-### <span class="section-title">Projects</span>
+### <span class="section-title">Blaming AI</span>
 
 - Sample Project 1
 - Sample Project 2
