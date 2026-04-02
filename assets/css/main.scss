@@ -81,35 +81,48 @@ ul li::before {
 }
 
 /* nav bar basics */
+/* nav bar basics */
 .top-nav {
   background-color: transparent;
   border-bottom: 1px solid #ccc;
-  padding: 12px 40px;
+  padding: 16px 0;              /* remove side padding so line spans full width */
   position: relative;
   z-index: 10;
+  width: 100%;
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;            /* keeps content neatly aligned */
+  margin: 0 auto;
+  padding: 0 40px;              /* moves inner content inward without shortening border */
+  box-sizing: border-box;
 }
 
 .nav-logo {
-  font-size: 24px;
+  font-size: 34px;              /* bigger 福 */
   font-weight: bold;
   color: #ffd0de;
+  line-height: 1;
+}
+
+.nav-logo-link {
+  text-decoration: none;
 }
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 36px;
+  align-items: center;
 }
 
 .nav-links a {
   color: #73ea8b;
   text-decoration: none;
   font-weight: 500;
+  font-size: 20px;              /* bigger nav text */
   transition: color 0.3s ease;
 }
 
