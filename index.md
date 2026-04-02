@@ -5,7 +5,6 @@ layout: default
 <!-- Navigation Bar with 福 on the left and menu on the right -->
 <nav class="top-nav">
   <div class="nav-container">
-    <a href="https://gracesominlee.github.io">
     <div class="nav-logo">福</div>
     <div class="nav-links">
       <a href="#about-me">About Me</a>
