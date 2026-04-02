@@ -22,6 +22,7 @@ layout: default
     <img src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=180&section=header&text=Grace%20Somin%20Lee&fontSize=35&fontColor=474747" alt="Grace Somin Lee Banner" style="max-width: 100%;"/>
   </a>
 </div>
+
 <!-- Profile Image -->
 <div style="text-align: center; margin-top: -5px;">
   <img src="/assets/img/face2.JPG" alt="Grace Somin Lee"  style="width: 100%; max-width: 200px; height: 200px; object-fit: cover;
@@ -50,6 +51,7 @@ layout: default
 <div style="text-align: center; font-size: 15px; color: #474747; margin-top: 105px;">
   ⋆˚☆˖°⋆｡° ✮˖ ࣪ ⊹⋆.˚
 </div>
+
 <!-- Spacer -->
 <div style="height: 10px;"></div>
 
@@ -57,16 +59,9 @@ layout: default
 
 Hi there! I’m a master’s student in Computational Social Science at 
 <a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>.
-As a part of TDS Lab, I study how algorithmic systems can approximate human narratives, focusing on methods to surface the stories of those underrepresented in data. I aim to critically examine how meaning, context, and ethical responsibility can be preserved in the process of modeling social realities.
+As a part of Theory·Data·Society Lab, I study how the public interacts with new technologies, especially the ones designed to emulate human traits. 
 
-These ideas can be represented through key words such as...
-
-
-- Data Humanism / Human-Centered AI
-- Algorithmic Bias & Representation
-- Computational Ethnography
-- (In)visibility
-- Violence
+Prior to developing this interest, I was heavily engaged with international development, where my major concern was directed toward making visible the underconceptualized problems such as gender based violence. 
 
 I have always been hopeful about the power of discourse. We all live in different worlds of our own, but through language -- spoken, written, embodied, or encoded -- I believe us humans can make our realities legible to one another. If you wish to share your side of the world, feel free to reach out to me. Let's kickstart another ₊⊹smol‧₊˚ yet precious discourse. 
 
