@@ -51,7 +51,6 @@ layout: default
 <div style="text-align: center; font-size: 15px; color: #474747; margin-top: 105px;">
   ⋆˚☆˖°⋆｡° ✮˖ ࣪ ⊹⋆.˚
 </div>
-
 <!-- Spacer -->
 <div style="height: 10px;"></div>
 
