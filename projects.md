@@ -31,4 +31,6 @@ permalink: /projects/
 
 ### <span class="section-title">Blaming AI</span>
 
-[Download Paper]({{ '/assets/chiea26.pdf' | relative_url }})
+[View Paper]({{ '/assets/chiea26_Lee.pdf' | relative_url }})
+[View Supplementary Materials]({{ '/assets/chiea26_Lee_Supplementary.pdf' | relative_url }})
+
