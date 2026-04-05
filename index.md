@@ -20,7 +20,7 @@ title: Home
 <div style="text-align: center; margin-top: 30px;">
   <a href="{{ '/about/' | relative_url }}">
     <img
-      src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=300&section=header&text=Grace%20Somin%20Lee&fontSize=42&fontColor=474747"
+      src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=300&section=header&text=Welcome!&fontSize=42&fontColor=474747"
       alt="Grace Somin Lee Banner"
       style="max-width: 100%; width: 100%; border-radius: 12px;"
     />
