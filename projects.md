@@ -38,10 +38,10 @@ permalink: /projects/
 
   <div class="project-buttons">
     <a href="{{ '/assets/chiea26_Lee.pdf' | relative_url }}" class="project-pill" target="_blank">
-      View Paper
+      Full Paper
     </a>
     <a href="{{ '/assets/chiea26_Lee_Supplementary.pdf' | relative_url }}" class="project-pill" target="_blank">
-      View Supplementary Materials
+      Supplementary Materials
     </a>
   </div>
 </div>
