@@ -163,3 +163,42 @@ nav a:hover {
   filter: brightness(1.08) saturate(1.15);
   opacity: 0.95;
 }
+
+/* project page*/
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  margin: 0;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project-pill {
+  display: inline-block;
+  padding: 6px 18px;
+  background-color: #ffd29a;   /* light tangerine */
+  color: #5f4a3a;
+  text-decoration: none;
+  border: none;
+  border-radius: 999px;        /* skinny ellipse */
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.2;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.project-pill:hover {
+  background-color: #ffc27a;
+  transform: translateY(-1px);
+}
