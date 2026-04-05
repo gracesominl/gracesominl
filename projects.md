@@ -31,6 +31,4 @@ permalink: /projects/
 
 ### <span class="section-title">Blaming AI</span>
 
-- Sample Project 1
-- Sample Project 2
-- Sample Project 3
+[Download Paper]({{ '/assets/chiea26.pdf' | relative_url }})
