@@ -16,13 +16,12 @@ title: Home
   </div>
 </nav>
 
-<!-- Home Hero Image / Clickable Banner -->
 <div style="text-align: center; margin-top: 30px;">
-  <a href="{{ '/about/' | relative_url }}">
+  <a href="{{ '/about/' | relative_url }}" class="hero-banner-link">
     <img
       src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=300&section=header&text=Welcome!&fontSize=42&fontColor=474747"
-      alt="Grace Somin Lee Banner"
-      style="max-width: 100%; width: 100%; border-radius: 12px;"
+      alt="Welcome Banner"
+      class="hero-banner-img"
     />
   </a>
 </div>
