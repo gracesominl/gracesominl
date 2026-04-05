@@ -144,3 +144,22 @@ nav a:hover {
   color: #9a9bf5;
   border-bottom: 2px solid #b882e8; /* Optional: underline effect */
 }
+
+/* animating banner*/
+.hero-banner-link {
+  display: inline-block;
+  width: 100%;
+}
+
+.hero-banner-img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+.hero-banner-link:hover .hero-banner-img {
+  transform: scale(1.01);
+  filter: brightness(1.08) saturate(1.15);
+  opacity: 0.95;
+}
