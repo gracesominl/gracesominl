@@ -4,11 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-<nav class="top-nav">
-  <div class="nav-container">
-    <a href="https://gracesominlee.github.io" class="nav-logo-link">
-      <div class="nav-logo">福</div>
-    </a>
+<a href="https://gracesominlee.github.io" class="nav-logo-link">
+  <img src="{{ '/assets/img/butterfly1.PNG' | relative_url }}" alt="Home" class="nav-logo-img">
+</a>
 
     <div class="nav-links">
       <a href="{{ '/about/' | relative_url }}">About Me</a>
