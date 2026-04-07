@@ -86,12 +86,3 @@ I have always been hopeful about the power of discourse. We all live in differen
 #### Work Experience
 - Research and Data Intern, <a href="https://asiapacific.unwomen.org/en/countries/rok" style="color: #f5628d; text-decoration: none;">UN Women</a> (02.2025 - 08.2025)
 
-<!-- divider line -->
-<div style="text-align: center; font-size: 15px; color: #474747; margin-top: 70px;">
-  ⋆˚☆˖°⋆｡° ✮˖ ࣪ ⊹⋆.˚
-</div>
-
-<div style="height: 10px;"></div>
-
-### <span class="section-title">CV</span>
-[Download CV](/assets/cv.pdf)
