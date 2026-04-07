@@ -81,11 +81,10 @@ ul li::before {
 }
 
 /* nav bar basics */
-/* nav bar basics */
 .top-nav {
   background-color: transparent;
   border-bottom: 1px solid #ccc;
-  padding: 16px 0;              /* remove side padding so line spans full width */
+  padding: 16px 0;
   position: relative;
   z-index: 10;
   width: 100%;
@@ -95,21 +94,30 @@ ul li::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;            /* keeps content neatly aligned */
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 40px;              /* moves inner content inward without shortening border */
+  padding: 0 40px;
   box-sizing: border-box;
 }
 
-.nav-logo-letter {
-  font-size: 27px;              /* bigger 福 */
+.nav-logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 27px;   /* match old 福 size */
+  width: auto;
+  display: block;
+}
+
+.nav-logo-name {
+  font-size: 27px;
   font-weight: bold;
   color: #ffd0de;
   line-height: 1;
-}
-
-.nav-logo-link-letter {
-  text-decoration: none;
 }
 
 .nav-links {
@@ -122,7 +130,7 @@ ul li::before {
   color: #73ea8b;
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;              /* bigger nav text */
+  font-size: 16px;
   transition: color 0.3s ease;
 }
 
@@ -130,19 +138,6 @@ ul li::before {
   color: #b882e8;
   border-bottom: 2px solid #b882e8;
 }
-
-.nav-logo-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.nav-logo-img {
-  height: 40px;
-  width: auto;
-  display: block;
-}
-
 
 /* animating nav bar*/
 nav a {
