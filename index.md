@@ -7,6 +7,7 @@ title: Home
   <div class="nav-container">
     <a href="https://gracesominlee.github.io" class="nav-logo-link">
       <img src="{{ '/assets/img/butterfly1.PNG' | relative_url }}" alt="Home" class="nav-logo-img">
+      <span class="nav-logo-name">Grace Somin Lee</span>
     </a>
 
     <div class="nav-links">
