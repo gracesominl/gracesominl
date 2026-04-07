@@ -206,3 +206,14 @@ nav a:hover {
   transform: translateY(-1px);
   box-shadow: 0 0 14px rgba(255, 194, 122, 0.7);
 }
+
+
+/* contact button*/
+.contact-bar {
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
