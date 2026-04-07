@@ -101,14 +101,14 @@ ul li::before {
   box-sizing: border-box;
 }
 
-.nav-logo {
+.nav-logo-letter {
   font-size: 27px;              /* bigger 福 */
   font-weight: bold;
   color: #ffd0de;
   line-height: 1;
 }
 
-.nav-logo-link {
+.nav-logo-link-letter {
   text-decoration: none;
 }
 
@@ -129,6 +129,18 @@ ul li::before {
 .nav-links a:hover {
   color: #b882e8;
   border-bottom: 2px solid #b882e8;
+}
+
+.nav-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
 
