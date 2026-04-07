@@ -51,10 +51,11 @@ permalink: /about/
 </div>
 
 <!-- Contact Bar -->
-<div style="text-align: center; margin: 30px 0;">
-  <a href="mailto:gracesomin@kaist.ac.kr" style="margin: 0 16px; color: #ffb95e; text-decoration: none;">Email</a>
-  <a href="https://github.com/gracesominlee" target="_blank" style="margin: 0 16px; color: #ffb95e; text-decoration: none;">GitHub</a>
-  <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" style="margin: 0 16px; color: #ffb95e; text-decoration: none;">LinkedIn</a>
+<div class="contact-bar">
+  <a href="mailto:gracesomin@kaist.ac.kr" class="project-pill">Email</a>
+  <a href="https://github.com/gracesominlee" target="_blank" class="project-pill">GitHub</a>
+  <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">CV</a>
 </div>
 
 <!-- divider line -->
