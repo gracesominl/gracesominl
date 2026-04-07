@@ -16,7 +16,7 @@ permalink: /about/
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
     </div>
   </div>
-</nav>
+</nav> 
 
 <!-- Clickable Banner -->
 <div style="text-align: center; margin-top: 10px;">
