@@ -43,7 +43,7 @@ permalink: /about/
 
 
 
-Hi there! I’m a Master’s student in Computational Social Science at <a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>, where I work with the Theory·Data·Society Lab. I’m interested in how people collectively produce new boundaries between humans and nonhumans. Recently, I've been studying the sociotechnical realities and imaginaries of AI that emerge through everyday public discourse and how these imaginaries lay the groundwork for rethinking human–AI boundaries.
+Hi there! I’m a Master’s student in Computational Social Science at <a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>, where I work with the <a href="https://tds-lab.vercel.app/" style="color: #f5628d; text-decoration: none;">Theory·Data·Society Lab</a>. I’m interested in how people collectively produce new boundaries between humans and nonhumans. Recently, I've been studying the sociotechnical realities and imaginaries of AI that emerge through everyday public discourse and how these imaginaries lay the groundwork for rethinking human–AI boundaries.
 
 Before turning to this line of research, I worked in the humanitarian and international development field, where I was driven by a desire to make underconceptualized problems, including gender-based violence, more visible. That experience led me to see computational methods not simply as technical tools, but as another language, and another window, through which complex social problems can be made legible to wider publics. 
 
