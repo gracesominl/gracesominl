@@ -37,10 +37,7 @@ permalink: /about/
   <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">CV</a>
 </div>
 
-<!-- divider line -->
-<div style="text-align: center; font-size: 15px; color: #474747; margin-top: 80px;">
-  ⋆˚☆˖°⋆｡° ✮˖ ࣪ ⊹⋆.˚
-</div>
+
 
 <div style="height: 10px;"></div>
 
