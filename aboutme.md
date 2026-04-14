@@ -44,7 +44,7 @@ permalink: /about/
 
 <div style="height: 10px;"></div>
 
-### <span class="section-title">About Me</span>
+
 
 Hi there! I’m a Master’s student in Computational Social Science at <a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>, where I work with the Theory·Data·Society Lab. I’m interested in how people collectively produce new boundaries between humans and nonhumans. Recently, I've been studying the sociotechnical realities and imaginaries of AI that emerge through everyday public discourse and how these imaginaries lay the groundwork for rethinking human–AI boundaries.
 
