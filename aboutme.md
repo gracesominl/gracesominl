@@ -68,13 +68,11 @@ permalink: /about/
 
 ### <span class="section-title">About Me</span>
 
-Hi there! I’m a master’s student in Computational Social Science at 
-<a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>.
-As a part of Theory·Data·Society Lab, I study how the public interacts with new technologies, especially the ones designed to emulate human traits. 
+Hi there! I’m a Master’s student in Computational Social Science at <a href="https://kaist.ac.kr/en/" style="color: #f5628d; text-decoration: none;">KAIST</a>, where I work with the Theory·Data·Society Lab. I’m interested in how people collectively produce new boundaries between humans and nonhumans. Recently, I've been studying the sociotechnical realities and imaginaries of AI that emerge through everyday public discourse and how these imaginaries lay the groundwork for rethinking human–AI boundaries.
 
-Prior to developing this interest, I was heavily engaged with international development, where my major concern was directed toward making visible the underconceptualized problems such as gender based violence. 
+Before turning to this line of research, I worked in the humanitarian and international development field, where I was driven by a desire to make underconceptualized problems, including gender-based violence, more visible. That experience led me to see computational methods not simply as technical tools, but as another language, and another window, through which complex social problems can be made legible to wider publics. 
 
-I have always been hopeful about the power of discourse. We all live in different worlds of our own, but through language -- spoken, written, embodied, or encoded -- I believe us humans can make our realities legible to one another. If you wish to share your side of the world, feel free to reach out to me. Let's kickstart another ₊⊹smol‧₊˚ yet precious discourse.
+Across both practice and research, I remain interested in the power of discourse -- how language makes our worlds legible to one another, and how it can create new possibilities for coevolving with technology. We each inhabit different corners of reality, but through language, spoken, written, embodied, or encoded, we can make those realities intelligible and shareable. If you’d like to share your side of the world, feel free to reach out. I’d be glad to begin another small yet meaningful discourse!
 
 <div style="height: 5px;"></div>
 
