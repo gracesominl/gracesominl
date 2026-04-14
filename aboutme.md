@@ -29,28 +29,6 @@ permalink: /about/
   </a>
 </div>
 
-<!-- Bigger Profile Image -->
-<div style="text-align: center; margin-top: 10px;">
-  <img
-    src="/assets/img/face2.JPG"
-    alt="Grace Somin Lee"
-    style="
-      width: 100%;
-      max-width: 300px;
-      height: 300px;
-      object-fit: cover;
-      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%,
-                         79% 91%, 50% 70%, 21% 91%, 32% 57%,
-                         2% 35%, 39% 35%);
-    "
-  />
-</div>
-
-<!-- Intro Text -->
-<div style="text-align: center; font-size: 15px; margin-top: 10px; color: #474747; font-style: italic;">
-  Bringing human narratives into the digital sphere···
-</div>
-
 <!-- Contact Bar -->
 <div class="contact-bar">
   <a href="mailto:gracesomin@kaist.ac.kr" class="project-pill">Email</a>
