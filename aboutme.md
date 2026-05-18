@@ -34,7 +34,7 @@ permalink: /about/
   <a href="mailto:gracesomin@kaist.ac.kr" class="project-pill">Email</a>
   <a href="https://github.com/gracesominlee" target="_blank" class="project-pill">GitHub</a>
   <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">LinkedIn</a>
-  <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">CV</a>
+  <a href="/assets/CV_May2026.pdf" target="_blank" class="project-pill">CV</a>
 </div>
 
 
