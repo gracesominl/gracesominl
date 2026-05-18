@@ -38,8 +38,8 @@ permalink: /projects/
   </h3>
 
   <div class="project-buttons">
-    <a href="{{ '/assets/chiea26_Lee.pdf' | relative_url }}" class="project-pill" target="_blank">
-      Full Paper
+    <a href="https://doi.org/10.1145/3772363.3798646" class="project-pill" target="_blank" rel="noopener noreferrer">
+    Link to Paper
     </a>
     <a href="{{ '/assets/chiea26_Lee_Supplementary.pdf' | relative_url }}" class="project-pill" target="_blank">
       Supplementary Materials
