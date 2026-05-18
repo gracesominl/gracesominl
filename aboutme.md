@@ -59,4 +59,5 @@ Across both practice and research, I remain interested in the power of discourse
 
 #### Work Experience
 - Research and Data Intern, <a href="https://asiapacific.unwomen.org/en/countries/rok" style="color: #f5628d; text-decoration: none;">UN Women</a> (02.2025 - 08.2025)
+- Program Associate (Internship), <a href="https://asiafoundation.org/" style="color: #f5628d; text-decoration: none;">The Asia Foundation</a> (08.2024 - 09.2024)
 
