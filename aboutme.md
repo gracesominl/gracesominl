@@ -23,7 +23,7 @@ permalink: /about/
 <div style="text-align: center; margin-top: 10px;">
   <a href="https://gracesominlee.github.io">
     <img
-      src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=180&section=header&text=About%20Me&fontSize=35&fontColor=474747"
+      src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height=180&section=header&text=About%20Me🥬&fontSize=35&fontColor=474747"
       alt="About Me Banner"
       style="max-width: 100%;"
     />
