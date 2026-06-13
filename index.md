@@ -13,6 +13,7 @@ title: Home
     <div class="nav-links">
       <a href="{{ '/about/' | relative_url }}">About Me</a>
       <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/beings/' | relative_url }}">Beings</a>
     </div>
   </div>
 </nav>
