@@ -2,6 +2,8 @@
 layout: default
 title: About Me
 permalink: /about/
+hide_nav: true
+hide_banner: true
 ---
 
 <nav class="top-nav">
@@ -35,7 +37,7 @@ permalink: /about/
   <a href="mailto:gracesomin@kaist.ac.kr" class="project-pill">Email</a>
   <a href="https://github.com/gracesominlee" target="_blank" class="project-pill">GitHub</a>
   <a href="https://www.linkedin.com/in/gracesomin-l/" target="_blank" class="project-pill">LinkedIn</a>
-  <a href="{{ '/assets/papers/CV_May2026.pdf' | relative_url }}" target="_blank" class="project-pill">CV</a>
+  <a href="{{ '/assets/cv/CV_May2026.pdf' | relative_url }}" target="_blank" class="project-pill">CV</a>
 </div>
 
 
@@ -61,4 +63,3 @@ Across both practice and research, I remain interested in the power of discourse
 #### Work Experience
 - Research and Data Intern, <a href="https://asiapacific.unwomen.org/en/countries/rok" style="color: #f5628d; text-decoration: none;">UN Women</a> (02.2025 - 08.2025)
 - Program Associate (Internship), <a href="https://asiafoundation.org/" style="color: #f5628d; text-decoration: none;">The Asia Foundation</a> (08.2024 - 09.2024)
-
