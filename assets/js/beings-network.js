@@ -93,9 +93,14 @@
     activeCard.className = "being-card";
     activeCard.setAttribute("aria-live", "polite");
     activeCard.innerHTML = `
-      <button type="button" class="being-card-close" aria-label="Free ${escapeAttribute(being.name)}">x</button>
-      <p class="being-card-label">${escapeHtml(being.kind || "being")}</p>
-      <h2>${escapeHtml(being.name)}</h2>
+      <button type="button" class="being-card-close" aria-label="Free ${escapeAttribute(being.name)}">&times;</button>
+      <div class="being-card-heading">
+        <img src="${escapeAttribute(being.image)}" alt="" aria-hidden="true">
+        <div>
+          <p class="being-card-label">${escapeHtml(being.kind || "being")}</p>
+          <h2>${escapeHtml(being.name)}</h2>
+        </div>
+      </div>
       <h3>Features</h3>
       ${featureList}
       <h3>Story</h3>
