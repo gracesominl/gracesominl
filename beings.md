@@ -40,9 +40,6 @@ hide_banner: true
 
 <section class="beings-network" aria-label="Interactive beings network">
   <div class="beings-stage" data-beings-stage></div>
-  <aside class="beings-panel" data-beings-panel aria-live="polite">
-    <p>Select a being.</p>
-  </aside>
 </section>
 
 <script type="application/json" id="beings-data">

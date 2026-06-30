@@ -1,16 +1,16 @@
 (function () {
   const stage = document.querySelector("[data-beings-stage]");
-  const panel = document.querySelector("[data-beings-panel]");
   const dataEl = document.getElementById("beings-data");
 
-  if (!stage || !panel || !dataEl) return;
+  if (!stage || !dataEl) return;
 
   let beings = [];
+  let activeCard = null;
 
   try {
     beings = JSON.parse(dataEl.textContent.trim() || "[]");
   } catch (error) {
-    panel.innerHTML = "<p>The beings data could not be loaded.</p>";
+    stage.innerHTML = '<p class="beings-empty">The beings data could not be loaded.</p>';
     return;
   }
 
@@ -22,8 +22,7 @@
   const nodes = beings.map((being, index) => {
     const button = document.createElement("button");
     const img = document.createElement("img");
-    const label = document.createElement("span");
-    const size = 72 + (index % 3) * 10;
+    const size = 42 + (index % 3) * 6;
 
     button.type = "button";
     button.className = "being-node";
@@ -34,43 +33,46 @@
     img.alt = being.name;
     img.loading = "lazy";
 
-    label.textContent = being.name;
-
-    button.append(img, label);
+    button.append(img);
     stage.appendChild(button);
 
     button.addEventListener("click", () => {
-      stage.querySelectorAll(".being-node").forEach((node) => {
-        node.classList.remove("is-selected");
-      });
+      closeCard();
       button.classList.add("is-selected");
-      renderPanel(being);
+      renderCard(being, button);
     });
 
     return {
       el: button,
       being,
-      x: 40 + Math.random() * 320,
-      y: 40 + Math.random() * 220,
+      x: 24 + Math.random() * 520,
+      y: 24 + Math.random() * 420,
       vx: (Math.random() - 0.5) * 0.45,
       vy: (Math.random() - 0.5) * 0.45,
       size
     };
   });
 
-  renderPanel(beings[0]);
-  nodes[0].el.classList.add("is-selected");
+  stage.addEventListener("click", (event) => {
+    if (!event.target.closest(".being-node") && !event.target.closest(".being-card")) {
+      closeCard();
+    }
+  });
 
-  function renderPanel(being) {
+  function renderCard(being, nodeEl) {
     const features = Array.isArray(being.features) ? being.features : [];
     const featureList = features.length
       ? `<ul>${features.map((feature) => `<li>${escapeHtml(feature)}</li>`).join("")}</ul>`
       : "<p>No features added yet.</p>";
 
-    panel.innerHTML = `
-      <p class="beings-panel-label">${escapeHtml(being.kind || "being")}</p>
+    activeCard = document.createElement("article");
+    activeCard.className = "being-card";
+    activeCard.setAttribute("aria-live", "polite");
+    activeCard.innerHTML = `
+      <button type="button" class="being-card-close" aria-label="Close ${escapeAttribute(being.name)} details">x</button>
+      <p class="being-card-label">${escapeHtml(being.kind || "being")}</p>
       <h2>${escapeHtml(being.name)}</h2>
-      <div class="beings-panel-image-wrap">
+      <div class="being-card-image-wrap">
         <img src="${escapeAttribute(being.image)}" alt="${escapeAttribute(being.name)}">
       </div>
       <h3>Features</h3>
@@ -78,12 +80,46 @@
       <h3>Story</h3>
       <p>${escapeHtml(being.story || "No story added yet.")}</p>
     `;
+
+    stage.appendChild(activeCard);
+    activeCard.querySelector(".being-card-close").addEventListener("click", closeCard);
+    positionCard(activeCard, nodeEl);
+  }
+
+  function closeCard() {
+    if (activeCard) {
+      activeCard.remove();
+      activeCard = null;
+    }
+    stage.querySelectorAll(".being-node").forEach((node) => {
+      node.classList.remove("is-selected");
+    });
+  }
+
+  function positionCard(card, nodeEl) {
+    const stageRect = stage.getBoundingClientRect();
+    const nodeRect = nodeEl.getBoundingClientRect();
+    const cardRect = card.getBoundingClientRect();
+    const margin = 14;
+    const nodeX = nodeRect.left - stageRect.left;
+    const nodeY = nodeRect.top - stageRect.top;
+    let x = nodeX + nodeRect.width + margin;
+    let y = nodeY;
+
+    if (x + cardRect.width > stageRect.width - margin) {
+      x = nodeX - cardRect.width - margin;
+    }
+
+    x = clamp(x, margin, Math.max(stageRect.width - cardRect.width - margin, margin));
+    y = clamp(y, margin, Math.max(stageRect.height - cardRect.height - margin, margin));
+
+    card.style.transform = `translate(${x}px, ${y}px)`;
   }
 
   function animate() {
     const rect = stage.getBoundingClientRect();
-    const maxX = Math.max(rect.width - 120, 1);
-    const maxY = Math.max(rect.height - 120, 1);
+    const maxX = Math.max(rect.width - 88, 1);
+    const maxY = Math.max(rect.height - 88, 1);
 
     nodes.forEach((node, index) => {
       node.x += node.vx;
