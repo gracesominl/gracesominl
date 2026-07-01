@@ -35,17 +35,10 @@ hide_banner: true
 
 <div class="project-header">
   <h3 class="project-title">
-    <span class="section-title">Blame as Sensemaking: A Computational Mapping of Target Framings Across Online AI Discourse</span>
+    <a href="https://doi.org/10.1145/3772363.3798646" class="project-title-link" target="_blank" rel="noopener noreferrer">
+      <span class="section-title">Blame as Sensemaking: A Computational Mapping of Target Framings Across Online AI Discourse</span>
+    </a>
   </h3>
-
-  <div class="project-buttons">
-    <a href="https://doi.org/10.1145/3772363.3798646" class="project-pill" target="_blank" rel="noopener noreferrer">
-    Link to Paper
-    </a>
-    <a href="{{ '/assets/papers/chiea26_Lee_Supplementary.pdf' | relative_url }}" class="project-pill" target="_blank">
-      Supplementary Materials
-    </a>
-  </div>
 </div>
 
 *Presented at CHI'26*  
