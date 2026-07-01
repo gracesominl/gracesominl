@@ -36,4 +36,16 @@
   features:
     - green
     - safely attached to backpack
-  story: It's as much Shrek as it is Hello Kitty. Provides moral support. 
+    - provides moral support 
+  story: It's as much Shrek as it is Hello Kitty. Was adopted from a claw machine in Busan.
+
+- id: glasscloth
+  name: Gloth
+  kind: artifact
+  image: /assets/img/beings/wipe.jpeg
+  features:
+    - microfiber
+    - custom made
+    - soft
+    - enables clear vision
+  story: A microfiber cloth for cleaning glasses. The original photo was taken by the site owner in the summer of 2022, upon arrival in Paris. 
