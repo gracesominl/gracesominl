@@ -105,6 +105,14 @@ ul li::before {
   align-items: center;
   gap: 8px;
   text-decoration: none;
+  border-bottom: 0;
+  transition: transform 0.3s ease;
+}
+
+.nav-logo-link:hover {
+  text-decoration: none;
+  border-bottom: 0;
+  transform: translateY(-1px);
 }
 
 .nav-logo-img {
@@ -119,6 +127,12 @@ ul li::before {
   font-weight: 550;
   color: #ff9dba;
   line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.nav-logo-link:hover .nav-logo-name {
+  color: #9a9bf5;
+  text-decoration: none;
 }
 
 .nav-links {
