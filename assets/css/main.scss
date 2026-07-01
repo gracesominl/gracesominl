@@ -206,25 +206,49 @@ nav a:hover {
 }
 
 .project-pill {
-  display: inline-block;
-  padding: 5px 15px;
-  background-color: #ffd29a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  min-height: 22px;
+  padding: 3px 0;
+  background-color: transparent;
   color: #5f4a3a;
   text-decoration: none;
   border: none;
-  border-radius: 999px;
   font-size: 0.92rem;
   font-weight: 500;
   line-height: 1.2;
+  overflow: visible;
+  white-space: nowrap;
+  isolation: isolate;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.project-pill::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 22px;
+  background-color: #ffd29a;
+  border-radius: 50%;
   box-shadow:
     0 0 6px rgba(255, 210, 154, 0.45),
     0 0 14px rgba(255, 210, 154, 0.28);
-  transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .project-pill:hover {
-  background-color: #ffc27a;
   transform: translateY(-1px);
+}
+
+.project-pill:hover::before {
+  background-color: #ffc27a;
   box-shadow: 0 0 14px rgba(255, 194, 122, 0.7);
 }
 
