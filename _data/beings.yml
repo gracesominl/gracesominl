@@ -2,7 +2,7 @@
 # Put new images in assets/img/beings/ and reference them with /assets/img/beings/file-name.jpg.
 
 - id: butterfly-one
-  name: Lola
+  name: Stevie the Butterfly
   kind: artifact
   image: /assets/img/butterfly1.PNG
   features:
