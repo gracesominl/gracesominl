@@ -416,7 +416,7 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   width: var(--being-size);
   height: var(--being-size);
   object-fit: cover;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 5px;
   box-shadow: 0 8px 22px rgba(40, 40, 70, 0.16);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
