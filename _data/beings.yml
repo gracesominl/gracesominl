@@ -2,8 +2,8 @@
 # Put new images in assets/img/beings/ and reference them with /assets/img/beings/file-name.jpg.
 
 - id: butterfly-one
-  name: Butterfly One
-  kind: animal
+  name: Lola
+  kind: artifact
   image: /assets/img/butterfly1.PNG
   features:
     - winged
@@ -28,3 +28,12 @@
     - fibrous
     - vitamin rich 
   story: The site owner's regular source of fiber. Rare case of afforable fresh produce in the city of Seoul. 
+
+- id: shrekitty
+  name: Shrekitty
+  kind: artifact
+  image: /assets/img/beings/shrekitty.jpeg
+  features:
+    - green
+    - dressed like an ogre, acts like a cat
+  story: Attached on the site owner's backpack. Provides moral support. 
