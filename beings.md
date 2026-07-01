@@ -33,8 +33,7 @@ hide_banner: true
 
 <section class="beings-intro">
   <p>
-    A small floating network of animals, humans, objects, robots, and other beings.
-    Each being carries features, fragments, and a story.
+    A floating network of all beings that have contributed to my creations. Click on them to see their stories. 
   </p>
 </section>
 
