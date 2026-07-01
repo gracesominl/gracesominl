@@ -298,6 +298,44 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   line-height: 1.1;
 }
 
+.project-abstract {
+  margin: 18px 0 0;
+}
+
+.project-abstract summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #222;
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+}
+
+.project-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-abstract summary::before {
+  content: "✦";
+  color: #a3f185;
+  font-weight: 600;
+}
+
+.project-abstract summary::after {
+  content: "+";
+  color: #9a9bf5;
+  font-weight: 600;
+}
+
+.project-abstract[open] summary::after {
+  content: "-";
+}
+
+.project-abstract p {
+  margin: 10px 0 0;
+}
+
 .project-divider {
   height: 40px;
 }
