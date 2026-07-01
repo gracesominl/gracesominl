@@ -376,13 +376,13 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   position: relative;
   min-height: 660px;
   overflow: hidden;
-  border: 1px solid rgba(154, 155, 245, 0.35);
+  border: 1px solid rgba(137, 137, 137, 0.35);
   border-radius: 6px;
   background:
-    radial-gradient(circle at 18% 18%, rgba(163, 241, 133, 0.22), transparent 24%),
-    radial-gradient(circle at 82% 26%, rgba(255, 157, 186, 0.2), transparent 26%),
+    radial-gradient(circle at 18% 18%, rgba(163, 241, 133, 0.22), transparent 15%),
+    radial-gradient(circle at 82% 26%, rgba(255, 157, 186, 0.2), transparent 15%),
     linear-gradient(135deg, #fff, #fbfbff 48%, #fffdf7);
-  box-shadow: 0 12px 32px rgba(154, 155, 245, 0.13);
+  box-shadow: 0 12px 32px rgba(166, 166, 166, 0.13);
 }
 
 .beings-stage::before {
