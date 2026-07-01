@@ -36,7 +36,7 @@ hide_banner: true
 <div class="project-header">
   <h3 class="project-title">
     <a href="https://doi.org/10.1145/3772363.3798646" class="project-title-link" target="_blank" rel="noopener noreferrer">
-      <span class="section-title">💭 Blame as Sensemaking: A Computational Mapping of Target Framings Across Online AI Discourse</span>
+      <span class="section-title">🗯️ Blame as Sensemaking: A Computational Mapping of Target Framings Across Online AI Discourse</span>
     </a>
   </h3>
 </div>
