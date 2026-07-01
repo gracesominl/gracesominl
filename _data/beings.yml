@@ -8,11 +8,23 @@
   features:
     - winged
     - site companion
-    - starter entry
-  story: This is a starter being using an existing site image. Replace this text with your own story.
+  story: This is a starter being using an existing site image. Was drawn in 2023 by the site owner. 
 
 - id: tapir
   name: Tapir
   kind: animal
   image: /assets/img/beings/tapir.jpeg
-  story:
+  features:
+    - (presumably) adolescent
+    - adorable
+  story: An image of a tapir discovered on the site owner's pinterest algorithm. Has been her favorite animal since. 
+
+- id: bokchoy
+  name: Bokchoy
+  kind: plant
+  image: /assets/img/beings/bokchoy.png
+  features:
+    - edible
+    - fibrous
+    - vitamin rich 
+  story: The site owner's regular source of fiber. Rare case of afforable fresh produce in the city of Seoul. 

@@ -128,11 +128,6 @@ ul li::before {
   transition: color 0.3s ease;
 }
 
-.nav-logo-link:hover .nav-logo-name {
-  color: #b882e8;
-  text-decoration: none;
-}
-
 .nav-links {
   display: flex;
   gap: 36px;
@@ -163,6 +158,19 @@ nav a {
 nav a:hover {
   color: #9a9bf5;
   border-bottom: 0px solid #b882e8; /* Optional: underline effect */
+}
+
+nav .nav-logo-link:hover,
+nav .nav-logo-link:focus-visible {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+nav .nav-logo-link:hover .nav-logo-name,
+nav .nav-logo-link:focus-visible .nav-logo-name {
+  color: #b882e8;
+  text-decoration: none;
 }
 
 /* animating banner*/
