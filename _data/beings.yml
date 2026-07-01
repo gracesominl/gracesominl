@@ -11,12 +11,8 @@
     - starter entry
   story: This is a starter being using an existing site image. Replace this text with your own story.
 
-- id: butterfly-two
-  name: Butterfly Two
+- id: tapir
+  name: Tapir
   kind: animal
-  image: /assets/img/butterfly2.PNG
-  features:
-    - winged
-    - floating
-    - starter entry
-  story: This is another starter being. You can duplicate this block to add animals, humans, robots, pencils, or other non-humans.
+  image: /assets/img/beings/tapir.jpeg
+  story:
