@@ -16,8 +16,8 @@
   image: /assets/img/beings/tapir.jpeg
   features:
     - (presumably) adolescent
-    - adorable
-  story: An image of a tapir discovered on the site owner's pinterest algorithm. Has been her favorite animal since. 
+    - cute
+  story: An image of a tapir discovered on the site owner's pinterest algorithm. Has been her favorite land mammal since. 
 
 - id: bokchoy
   name: Bokchoy
@@ -35,5 +35,5 @@
   image: /assets/img/beings/shrekitty.jpeg
   features:
     - green
-    - dressed like an ogre, acts like a cat
-  story: Attached on the site owner's backpack. Provides moral support. 
+    - safely attached to backpack
+  story: It's as much Shrek as it is Hello Kitty. Provides moral support. 
