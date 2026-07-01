@@ -359,7 +359,7 @@ nav a:hover {
   top: 0;
   left: 0;
   z-index: 3;
-  width: min(190px, calc(100% - 28px));
+  width: min(280px, calc(100% - 28px));
   min-height: 150px;
   max-height: calc(100% - 28px);
   overflow: auto;
@@ -424,15 +424,15 @@ nav a:hover {
 .being-card-heading {
   display: flex;
   gap: 8px;
-  align-items: center;
+  align-items: flex-start;
   min-width: 0;
   padding-right: 20px;
 }
 
 .being-card-heading img {
-  width: 34px;
-  height: 34px;
-  flex: 0 0 34px;
+  width: 96px;
+  height: 96px;
+  flex: 0 0 96px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 4px;
@@ -494,6 +494,6 @@ nav a:hover {
   }
 
   .being-card {
-    width: min(190px, calc(100% - 28px));
+    width: min(280px, calc(100% - 28px));
   }
 }
