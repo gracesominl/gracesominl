@@ -205,6 +205,12 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   opacity: 0.95;
 }
 
+.site-shell > :not(.top-nav):not(.beings-network) {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* project page*/
 .project-header {
   display: flex;
