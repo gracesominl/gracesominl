@@ -509,6 +509,31 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
 }
 
 @media (max-width: 760px) {
+  .top-nav {
+    padding: 14px 0;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 16px;
+  }
+
+  .nav-logo-link {
+    justify-content: center;
+  }
+
+  .nav-logo-name {
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    justify-content: center;
+    gap: clamp(18px, 8vw, 36px);
+    width: 100%;
+  }
+
   .beings-stage {
     min-height: 540px;
   }
