@@ -49,3 +49,12 @@
     - soft
     - enables clear vision
   story: A microfiber cloth for cleaning glasses. The original photo was taken by the site owner in the summer of 2022, upon arrival in Paris. 
+
+- id: hange
+  name: Hange Zoë 
+  kind: fictional character
+  image: /assets/img/beings/hange.jpeg
+  features:
+    - scientist
+    - non-nonchalant
+  story: The site owner's favorite character from the anime Attack on Titan. (Hot take: The most committed scientist ever in history.)
