@@ -57,4 +57,6 @@
   features:
     - scientist
     - non-nonchalant
-  story: The site owner's favorite character from the anime Attack on Titan. (Hot take: The most committed scientist ever in history.)
+  story: >
+    The site owner's favorite character from the anime Attack on Titan.
+    (Hot take: The most committed scientist ever in history.)
