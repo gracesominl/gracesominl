@@ -47,11 +47,25 @@
       {% assign banner_alt = page.banner_alt | default: default_banner_alt %}
       <div class="page-banner{% if page.banner_variant == 'hero' %} page-banner--hero{% endif %}">
         <a href="{{ banner_link | relative_url }}" class="{% if page.banner_variant == 'hero' %}hero-banner-link{% else %}page-banner-link{% endif %}">
-          <img
-            src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height={{ banner_height }}&section=header&text={{ banner_text | replace: ' ', '%20' }}&fontSize={{ banner_font_size }}&fontColor=474747"
-            alt="{{ banner_alt }}"
-            class="{% if page.banner_variant == 'hero' %}hero-banner-img{% else %}page-banner-img{% endif %}"
-          />
+          {% if page.banner_variant == 'hero' and page.banner_left_image and page.banner_right_image %}
+            <span class="hero-banner-stack" style="--banner-height: {{ banner_height }}px;">
+              <span class="hero-banner-photo-grid" aria-hidden="true">
+                <img src="{{ page.banner_left_image | relative_url }}" alt="" class="hero-banner-photo">
+                <img src="{{ page.banner_right_image | relative_url }}" alt="" class="hero-banner-photo">
+              </span>
+              <img
+                src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height={{ banner_height }}&section=header&text={{ banner_text | replace: ' ', '%20' }}&fontSize={{ banner_font_size }}&fontColor=474747"
+                alt="{{ banner_alt }}"
+                class="hero-banner-img hero-banner-img--overlay"
+              />
+            </span>
+          {% else %}
+            <img
+              src="https://capsule-render.vercel.app/api?type=blur&color=timeGradient&height={{ banner_height }}&section=header&text={{ banner_text | replace: ' ', '%20' }}&fontSize={{ banner_font_size }}&fontColor=474747"
+              alt="{{ banner_alt }}"
+              class="{% if page.banner_variant == 'hero' %}hero-banner-img{% else %}page-banner-img{% endif %}"
+            />
+          {% endif %}
         </a>
       </div>
     {% endunless %}
