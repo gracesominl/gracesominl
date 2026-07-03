@@ -200,7 +200,6 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   display: block;
   position: relative;
   width: 100%;
-  height: var(--banner-height, 300px);
   overflow: hidden;
   border-radius: 12px;
   transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
@@ -211,15 +210,13 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
   grid-template-columns: 1fr 1fr;
   gap: 0;
   width: 100%;
-  height: 100%;
 }
 
 .hero-banner-photo {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   min-width: 0;
-  object-fit: cover;
   border-radius: 0;
 }
 
@@ -232,10 +229,11 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
 
 .hero-banner-img--overlay {
   position: absolute;
-  inset: 0;
-  height: 100%;
-  object-fit: fill;
+  top: 50%;
+  left: 0;
+  height: auto;
   opacity: 0.86;
+  transform: translateY(-50%);
 }
 
 .hero-banner-link:hover .hero-banner-stack {
@@ -251,7 +249,7 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
 }
 
 .hero-banner-link:hover .hero-banner-img--overlay {
-  transform: none;
+  transform: translateY(-50%);
   filter: none;
   opacity: 0.9;
 }
@@ -645,10 +643,6 @@ nav .nav-logo-link:focus-visible .nav-logo-name {
     justify-content: center;
     gap: clamp(18px, 8vw, 36px);
     width: 100%;
-  }
-
-  .hero-banner-stack {
-    height: clamp(190px, 52vw, var(--banner-height, 300px));
   }
 
   .beings-stage {
